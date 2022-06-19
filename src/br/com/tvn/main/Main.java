@@ -3,6 +3,9 @@ package br.com.tvn.main;
 import br.com.tvn.models.Cachorro;
 import br.com.tvn.models.Gato;
 
+/**
+ * Classe para execução e teste.
+ */
 public class Main {
     public static void main(String[] args) {
         Cachorro c = new Cachorro("Lola", 2);

@@ -1,5 +1,8 @@
 package br.com.tvn.models;
 
+/**
+ * Um modelo genérico de animal
+ */
 public abstract class Animal {
     private String nome;
     private int idade;
@@ -25,8 +28,12 @@ public abstract class Animal {
         this.idade = idade;
     }
 
+    /**
+     * Método de informações.
+     * É usado pelos "filhos" da classe Animal para mostrar seus atributos.
+     */
     public void printInfo() {
-        System.out.println();
+        System.out.println();//Apenas pula uma linha antes de qualquer exibição.
         System.out.println("Nome: " + this.getNome());
         System.out.println("Idade: " + this.getIdade());
     }
